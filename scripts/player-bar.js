@@ -42,5 +42,6 @@
     $('#time-control .current-time').text( currentTime );
     $('#time-control .total-time').text( duration );
     $('#time-control input').val(percent);
+    player.prettyTime();
   }, 1000);
 }
